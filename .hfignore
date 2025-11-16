@@ -3,3 +3,4 @@ training/
 *.ipynb
 *.csv
 .ipynb_checkpoints/
+README.md
