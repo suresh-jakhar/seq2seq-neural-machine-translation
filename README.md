@@ -201,7 +201,7 @@ Automation, containerization, and deployment completed the education. CI/CD pipe
 git clone https://github.com/suresh-jakhar/seq2seq-neural-machine-translation.git
 cd seq2seq-neural-machine-translation
 
-# Install dependencies
+# Install dependencies 
 pip install -r requirements.txt
 
 # Run locally
