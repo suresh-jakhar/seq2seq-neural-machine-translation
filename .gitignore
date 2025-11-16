@@ -1,6 +1,6 @@
-# Byte-compiled / optimized / DLL files
+# Git ignore configuration
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
