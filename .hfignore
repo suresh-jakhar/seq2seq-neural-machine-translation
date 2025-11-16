@@ -1,8 +1,5 @@
-# Training data and notebooks - only for GitHub
+# Hugging Face deployment exclusions
 training/
 *.ipynb
 *.csv
 .ipynb_checkpoints/
-
-# Use minimal README for HF
-README.md
