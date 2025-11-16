@@ -1,6 +1,6 @@
 # Seq2Seq Neural Machine Translation
 
-A custom trained Transformer model for English to French translation, built from scratch with limited hardware constraints.
+English to French translation using custom Transformer model.
 
 **Author:** Suresh Jakhar
 
