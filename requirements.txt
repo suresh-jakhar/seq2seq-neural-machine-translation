@@ -1,3 +1,4 @@
+# Python dependencies
 flask==3.0.0
 flask-cors==4.0.0
 --extra-index-url https://download.pytorch.org/whl/cpu
