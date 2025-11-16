@@ -1,3 +1,4 @@
+# CI/CD Pipeline configuration
 name: CI/CD Pipeline
 
 on:
