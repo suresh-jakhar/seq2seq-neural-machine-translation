@@ -1,0 +1,8 @@
+# Training data and notebooks - only for GitHub
+training/
+*.ipynb
+*.csv
+.ipynb_checkpoints/
+
+# Use minimal README for HF
+README.md

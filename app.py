@@ -81,7 +81,7 @@ def load_model():
     global model, tokenizer
     try:
         # Load tokenizer
-        tokenizer_path = 'bpe_enfr.model'
+        tokenizer_path = 'models/bpe_enfr.model'
         if os.path.exists(tokenizer_path):
             tokenizer = spm.SentencePieceProcessor()
             tokenizer.load(tokenizer_path)
@@ -91,7 +91,7 @@ def load_model():
             return
         
         # Load model checkpoint
-        model_path = 'best_local_transformer.pt'
+        model_path = 'models/best_local_transformer.pt'
         if not os.path.exists(model_path):
             print(f"Warning: Model file not found at {model_path}")
             return
@@ -160,13 +160,13 @@ load_model()
 @app.route('/')
 def home():
     """Serve the frontend HTML page"""
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('static', 'index.html')
 
 @app.route('/api')
 def api_info():
     """API information"""
     return jsonify({
-        'message': 'French Translation API',
+        'message': 'Seq2Seq Neural Machine Translation',
         'version': '1.0',
         'endpoints': {
             '/translate': 'POST - Translate text to French',
