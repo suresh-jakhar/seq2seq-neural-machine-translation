@@ -1,4 +1,4 @@
-# Use Python 3.10 slim image
+# Docker configuration
 FROM python:3.10-slim
 
 # Set working directory
